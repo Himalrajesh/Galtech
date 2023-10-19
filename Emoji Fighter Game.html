@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="pesonaldetails"></p>
+
+    <script>
+        function logData(){
+            
+        const person = {Name:"Himal", Age:20, county:"India"};
+    
+    document.getElementById("pesonaldetails").innerHTML =
+    person.Name + " is " + person.Age + " years old and lives in "+ person.county;
+
+
+        }
+        logData()
+    </script>
+    
+</body>
+</html>
+<!-- / Create a person object that contains three keys: name, age, and county.
+// Use yourself as an example to set the values for name, age, and country
+
+// Create a function, logData(), that uses the person object to create a
+// string in the following format:
+// "Alisha is 30 years old and lives in India"
+
+// Call the logData() function to verify that it works -->
