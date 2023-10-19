@@ -1,0 +1,189 @@
+.navigationbar {
+  background-color: rgb(0, 171, 171);
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.licol {
+  color: white;
+  text-decoration: underline;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+.firstdiv {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content {
+  text-align: center;
+}
+.content h1 {
+  font-size: 95px;
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+  font-family: "Freehand", cursive;
+  font-family: "Nova Square", cursive;
+}
+
+.content button {
+  background-color: yellow;
+  color: rgb(19, 137, 215);
+  width: 400px;
+  height: 100px;
+  font-size: 50px;
+  border: 1px solid yellow;
+  font-weight: bold;
+  margin-top: 40px;
+}
+.btnforhead {
+  background-color: yellow;
+  color: rgb(19, 137, 215);
+  width: 400px;
+  height: 100px;
+  font-size: 50px;
+  border: 1px solid yellow;
+  font-weight: bold;
+  margin-top: 40px;
+}
+.backgroundvideo {
+  position: absolute;
+  right: 0;
+  
+  z-index: -1;
+}
+.imagefirstdiv {
+  width: 100%;
+  height: 512.25px;
+}
+.worddiv {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 1024.5px;
+}
+.honeforfirstdiv {
+  color: white;
+  font-size: 90px;
+  font-weight: bold;
+  padding-bottom: 80px;
+}
+.htwoforfirstdiv {
+  color: white;
+  width: 700px;
+  font-weight: 400;
+  margin: 10px 0px;
+}
+.smalldiv{
+  background-color: white;
+  border: 10px solid yellow;
+  width: 500px;
+  height: 300px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.divsecond{
+  display: flex;
+  width: 100%;
+  height: 800px;
+}
+.smalldivcon{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+}
+
+.divwordfirst{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  background-color: rgb(18,71,71);
+
+}
+.flexproperty{
+  height: 780px;
+}
+.lastdiv{
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 70px;
+}
+.card{
+  background-color: rgb(18,71,71)!important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+}
+.card-title{
+  color: yellow!important;
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: 50px;
+}
+.imaged{
+  width: 100%;
+  height: 400px;
+}
+.paragraph{
+  color: white;
+  font-size: 25px;
+  margin-top: 30px;
+}
+.lastpara{
+  font-size: 30px;
+  font-weight: 600;
+  color: rgb(18,71,71);
+}
+.lasthone{
+  font-weight: bold;
+  color: rgb(18,71,71);
+}
+
+.footercontainer{
+  background-color: black;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+
+}
+.term{
+  color: white;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.design{
+  color: white;
+  font-weight: bold;
+  margin-right: 10px;
+}
+/* .headone {
+  font-size: 80px;
+  color: rgb(205, 13, 13);
+  border: 1px solid black;
+  width: 50%;
+  margin: auto;
+} */
